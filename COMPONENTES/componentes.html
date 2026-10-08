@@ -1,40 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Componentes</title>
+
     <style>
-        button{
-         background-color: #092ABB;
-            color: #FFFFFF;
-            border-radius: 5px;
+        @import url("https://use.typekit.net/zxx7ntf.css");
+    </style>
+
+    <style>
+        .tipografía-principal{
+            font-family: niveau-grotesk, sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            color: #42312a;
+        }
+        .texto-narrativo{
+            font-family: meursault-variable, serif;
+            font-weight: 300;
+            font-style: normal;
+            color: #42312a;
+        }
+
+        button {
+            background-color: #cb6445;
+            color: #f4ece9;
+            border-radius: 30px;
             height: 40px;
             border: none;
             border-color: antiquewhite;
-            font-family: Arial, Helvetica, sans-serif;
-            font-weight: 400;
+            font-family: "niveau-grotesk", sans-serif;
+            font-weight: 700;
+            font-style: normal;
             padding-left: 16px;
             padding-right: 16px;
-            box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.25);
+            box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.25);
         }
 
         button:hover {
-            background-color: #001A8F;
-            box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.25);
+            background-color: #cb6445;
+            box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.25);
+            cursor: pointer;
         }
 
-        button:active{
-            background-color: #FFFFFF;
-            box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.25);
+        button:active {
+            background-color: #42312a;
+            box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.25);
         }
     </style>
-    
+
 </head>
+
 <body>
     <button>Button</button>
+
+    <div>
+        <h2 class="tipografía-principal">Card Title</h2>
+        <p class="texto-narrativo">Lorem ipsum dolor sit amet consectetur adipiscing elit ligula, dui vel est felis dignissim venenatis vivamus
+            imperdiet, quisque varius urna rhoncus non condimentum habitant. Massa in hac scelerisque, ad ante.</p>
+        <button>Button</button>
+    </div>
+
 </body>
+
 </html>
-
-
-
